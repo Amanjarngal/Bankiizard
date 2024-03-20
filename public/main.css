@@ -220,6 +220,7 @@ body {
     font-weight: 700;
     position: static;
     font-size: medium;
+   
 }
   
   footer:hover {
@@ -243,6 +244,7 @@ body {
     display: block;
     
  }   
+ 
 }
 .menu-icon{
     height: 2rem;
@@ -367,11 +369,7 @@ justify-content: space-between;
 
 }
 @media (max-width:490px) {
-  .contact_container{
-  /* margin-top: 100px;
-  margin-bottom: 10px; */
   
-  }
   .contact_main{
      display: flex; 
      flex-direction: column; 
@@ -382,9 +380,9 @@ justify-content: space-between;
 
 
   }
-  footer {
+  #main_footer{
     position:absolute;
-    /* top:915px; */
+   top: 2700px;
     
   }
 }
